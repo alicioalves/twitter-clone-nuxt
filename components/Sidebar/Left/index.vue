@@ -36,7 +36,7 @@ import {
 
 const { defaultTransition } = useTailwindConfig()
 
-const menuItems = [
+const menuItems = ref([
   {
     icon: HomeIcon,
     name: 'Home'
@@ -69,5 +69,5 @@ const menuItems = [
     icon: EllipsisHorizontalCircleIcon,
     name: 'More'
   }
-]
+])
 </script>
