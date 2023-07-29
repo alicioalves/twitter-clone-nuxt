@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@heroicons/vue": "^2.0.18",
-    "@prisma/client": "5.0.0"
+    "@prisma/client": "5.0.0",
+    "bcrypt": "^5.1.0"
   }
 }
