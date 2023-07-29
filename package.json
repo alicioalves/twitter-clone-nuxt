@@ -16,6 +16,7 @@
     "prisma": "^5.0.0"
   },
   "dependencies": {
-    "@heroicons/vue": "^2.0.18"
+    "@heroicons/vue": "^2.0.18",
+    "@prisma/client": "5.0.0"
   }
 }
