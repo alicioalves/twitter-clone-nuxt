@@ -8,8 +8,10 @@ import bcrypt from 'bcrypt'
 
 export default defineEventHandler(async (event) => {
   const body = await readBody(event)
-
+  console.log(body)
   const { username, password } = body
+
+  // console.log('username: ', username.username)
 
   if (!username || !password) {
     return sendError(
