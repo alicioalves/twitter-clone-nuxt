@@ -6,8 +6,6 @@ import { decodeRefreshToken, generateTokens } from '../../utils/jwt'
 export default defineEventHandler(async (event) => {
   const cookies = parseCookies(event)
 
-  console.log(cookies)
-
   const refreshToken = cookies?.refresh_token
 
   if (!refreshToken) {
